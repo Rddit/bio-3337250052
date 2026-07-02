@@ -19,7 +19,7 @@ body {
 header {
     background-color:rgba(0, 0, 0, 0.5);
     color: white;
-    padding: 10px /* atas bawah */ 10px /* kiri kanan */;
+    padding: 15px /* atas bawah */ 10px /* kiri kanan */;
     text-align: center;
 }
 
