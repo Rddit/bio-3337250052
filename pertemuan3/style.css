@@ -1,7 +1,7 @@
 body {
     font-family:monospace;
-    background-color: #ead4fc;
-    color: #262626;
+    background-color: #262626;
+    color: #ead4fc;
     margin: 0;
     text-align: center;
     /* Menambahkan Background Website */
@@ -24,7 +24,7 @@ header {
 }
 
 section {
-    background-color: rgba(255, 255, 255, 0.5);
+    background-color: rgba(0, 0, 0, 0.5);
     backdrop-filter: blur(10px);
     padding: 10px;
     margin: 10px auto;
