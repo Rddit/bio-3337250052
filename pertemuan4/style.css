@@ -1,0 +1,126 @@
+body {
+    font-family:monospace;
+    background-color: #262626;
+    color: #ead4fc;
+    margin: 0;
+    text-align: center;
+    /* Menambahkan Background Website */
+    background-image: url('background.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    /* membuat flexibilitas device*/
+    display: flex;
+    flex-direction:column;
+    min-height: 100vh;
+}
+
+header {
+    font-family:monospace;
+    background-color:rgba(0, 0, 0, 0.5);
+    color: white;
+    padding: 15px /* atas bawah */ 10px /* kiri kanan */;
+}
+
+.header-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+}
+
+.header-content h1 {
+    margin: 0;
+}
+
+section {
+    background-color: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(10px);
+    padding: 15px;
+    margin: 10px auto;
+    border: 1px solid #cccccc;
+    border-radius: 12px;
+    max-width: 500px;
+    width: 90%;
+    margin-bottom: 16px;
+}
+
+h2 {
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+p {
+    margin-bottom: 10px;
+}
+
+.skill-list {
+    display: flex;
+    flex-wrap: wrap; /* membungkus skill-item ke baris baru jika tidak muat */
+    gap: 10px; /* jarak tiap skill-item */
+    justify-content: center;
+}
+
+.skill-item {
+    background-color: #5b005b;
+    color: #ead4fc;
+    padding: 6px 16px;
+    border-radius: 20px;
+    font-weight: bold;
+}
+
+footer {
+    background-color:rgba(0, 0, 0, 0.5);
+    color: white;
+    padding: 15px 10px;
+    text-align: center;
+}
+
+section span {
+    margin: 10px 0 0 0;
+}
+
+span:hover {
+    background-color: #aa4eff;
+    transform: TranslateY(-5px);
+    box-shadow: 0 5px 15px rgba(102, 1, 125, 0.4);
+    cursor: pointer;
+}
+
+/* Menambahkan Responsifitas Tablet ke atas*/
+@media (min-width: 768px) {
+    main {
+        max-width: 900px;
+        margin: 0 auto;
+        padding: 24px;
+    }
+
+    .header-content {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+}
+
+* {
+    box-sizing: border-box;
+}
+
+main {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px 0;
+    width: 100%;
+}
+
+footer a {
+    color: #ffffff !important;
+    text-decoration: none;
+}
+
+footer a:visited {
+    color: #ffffff !important;
+}
