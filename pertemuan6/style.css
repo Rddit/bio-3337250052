@@ -101,6 +101,19 @@ span:hover {
         justify-content: space-between;
         align-items: center;
     }
+
+    .content-wrapper {
+        display: flex;
+        flex: 1;
+        flex-direction: row;
+        gap: 20px;
+        width: 100%;
+    }
+
+    .content-wrapper section {
+        flex: 1;
+        margin: 0;
+    }
 }
 
 * {
@@ -154,6 +167,10 @@ body.light section {
 
 body.light .skill-item {
     background-color: #aa4eff;
+}
+
+body.light .skill-item:hover {
+    background-color: #5b005b;
 }
 
 body.light footer {

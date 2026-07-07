@@ -37,7 +37,7 @@ async function ambilFakta() {
     isiFakta.textContent = "⏳ Memuat fakta...";
 
     try {
-        const response = await fetch("https://catfact.ninja/fact");
+        const response = await fetch("https://api.ryocantsleep.com/api/facts");
 
         // cek HTTP ok (status 200-299)
         if (!response.ok) {
