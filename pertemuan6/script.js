@@ -37,7 +37,7 @@ async function ambilFakta() {
     isiFakta.textContent = "⏳ Memuat fakta...";
 
     try {
-        const response = await fetch("https://api.ryocantsleep.com/api/facts");
+        const response = await fetch("https://api.ryocantsleep.com/api/cysecfacts");
 
         // cek HTTP ok (status 200-299)
         if (!response.ok) {
