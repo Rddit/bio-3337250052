@@ -144,7 +144,6 @@ footer a:visited {
     background: transparent;
     color: white;
     border-radius: 20px;
-    cursor: pointer; /* Agar kursor berubah saat hover */
     font-size: 14px;
     margin-top: 5px;
 }
@@ -153,11 +152,17 @@ footer a:visited {
 body.light {
     background-color:#ffffff;
     color: #262626;
+    background-image: url('background-light.jpeg');
 }
 
 body.light header {
     background-color:rgba(255, 255, 255, 0.5);
     color:#262626
+}
+
+body.light #btnToggle {
+    color: black;
+    border: 2px solid black;
 }
 
 body.light section {
@@ -171,6 +176,15 @@ body.light .skill-item {
 
 body.light .skill-item:hover {
     background-color: #5b005b;
+}
+
+body.light #fakta {
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.6), rgb(255, 194, 255) );
+    
+}
+
+body.light #btnRefresh {
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.8));
 }
 
 body.light footer {
@@ -210,17 +224,9 @@ body.light footer button {
     margin-bottom: 16px;
 }
 
-body.light #fakta {
-    background: linear-gradient(135deg, rgba(255, 133, 255, 0.6), rgba(245, 234, 255, 0.6));
-}
-
 #btnRefresh {
     border: none;
     border-radius: 12px;
     cursor: pointer;
     font-weight: bold;
-}
-
-body.light #fakta button {
-    background: linear-gradient(135deg, rgba(255, 255, 255, 0.8), rgba(245, 234, 255, 0.8));
 }
