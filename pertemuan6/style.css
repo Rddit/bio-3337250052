@@ -179,8 +179,7 @@ body.light .skill-item:hover {
 }
 
 body.light #fakta {
-    background: linear-gradient(135deg, rgba(255, 255, 255, 0.6), rgb(255, 194, 255) );
-    
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.6), rgb(255, 194, 255));
 }
 
 body.light #btnRefresh {
