@@ -9,7 +9,7 @@ $mahasiswa = [
     "email" => "radityapone@gmail.com",
     "github" => "https://github.com/Rddit",
     "skills" => ["Networking", "Python", "C++", "HTML"],
-    "bio" => "Saya adalah Mahasiswa Informatika UNTIRTA yang sedang bersemangat belajar teknologi web. Bukan tautan ini untuk melihat portofolio saya: https://rddit.github.io/bio-3337250052/pertemuan7/",
+    "bio" => "Saya adalah Mahasiswa Informatika UNTIRTA yang sedang bersemangat belajar teknologi web.",
 ];
 
 // Fungsi Helper
