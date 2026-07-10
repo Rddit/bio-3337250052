@@ -48,7 +48,7 @@ h2 {
 }
 
 p {
-    margin-bottom: 10px;
+    margin-bottom: 5px;
 }
 
 h1 {
@@ -60,6 +60,11 @@ h1 {
     flex-wrap: wrap; /* membungkus skill-item ke baris baru jika tidak muat */
     gap: 10px; /* jarak tiap skill-item */
     justify-content: center;
+}
+
+#skill .skill-list a {
+    text-decoration: none;
+    color: inherit;
 }
 
 .skill-item {
